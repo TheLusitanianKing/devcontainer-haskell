@@ -1,0 +1,16 @@
+{
+  "name": "Haskell",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+		"vscode": {
+			"extensions": [
+				"haskell.haskell",
+        "vigoo.stylish-haskell",
+        "hoovercj.haskell-linter"
+			]
+		}
+	}
+}
