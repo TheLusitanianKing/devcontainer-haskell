@@ -2,12 +2,12 @@
 See https://code.visualstudio.com/docs/devcontainers/containers for more information about dev containers.
 
 This comes with:
-- GHC
-- Cabal
+- GHC (through GHCup)
+- Cabal (through GHCup)
 - `hlint`
 - and `stylish-haskell`
 
-Everything is installed through GHCup and it should be pretty easy to adapt to your needs.
+It should be pretty easy to adapt to your needs but let me know if I can help.
 
 # N.B.
-At the moment, there's no official Haskell dev container configuration but if this ever change, please use the official setup.
+At the moment, there's no official Haskell dev container configuration but if this ever changes, please use the official setup.
